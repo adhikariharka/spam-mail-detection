@@ -1,0 +1,14 @@
+[2026-01-31 12:27:11]: prediction_pipeline.py - Line 27: INFO: Loading models...
+[2026-01-31 12:27:12]: prediction_pipeline.py - Line 40: ERROR: Failed to load SVM: name 'os' is not defined
+[2026-01-31 12:27:12]: prediction_pipeline.py - Line 40: ERROR: Failed to load Naive_Bayes: name 'os' is not defined
+[2026-01-31 12:27:12]: prediction_pipeline.py - Line 40: ERROR: Failed to load Random_Forest: name 'os' is not defined
+[2026-01-31 12:27:12]: prediction_pipeline.py - Line 40: ERROR: Failed to load Logistic_Regression: name 'os' is not defined
+[2026-01-31 12:27:12]: prediction_pipeline.py - Line 43: ERROR: No models loaded!
+[2026-01-31 12:27:12]: prediction_pipeline.py - Line 45: INFO: All models loaded successfully
+[2026-01-31 12:27:13]: prediction_pipeline.py - Line 27: INFO: Loading models...
+[2026-01-31 12:27:13]: prediction_pipeline.py - Line 40: ERROR: Failed to load SVM: name 'os' is not defined
+[2026-01-31 12:27:13]: prediction_pipeline.py - Line 40: ERROR: Failed to load Naive_Bayes: name 'os' is not defined
+[2026-01-31 12:27:13]: prediction_pipeline.py - Line 40: ERROR: Failed to load Random_Forest: name 'os' is not defined
+[2026-01-31 12:27:13]: prediction_pipeline.py - Line 40: ERROR: Failed to load Logistic_Regression: name 'os' is not defined
+[2026-01-31 12:27:13]: prediction_pipeline.py - Line 43: ERROR: No models loaded!
+[2026-01-31 12:27:13]: prediction_pipeline.py - Line 45: INFO: All models loaded successfully
