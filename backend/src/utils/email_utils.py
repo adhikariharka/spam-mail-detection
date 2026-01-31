@@ -2,6 +2,7 @@ import re
 from html import unescape
 from email.utils import getaddresses
 from bs4 import BeautifulSoup
+from typing import Any
 
 # ----------------------------------------------------------------------------
 # Function to extract email body content
@@ -40,10 +41,11 @@ def all_recipients(msg: object) -> str:
         fields.extend(getaddresses([msg.get(h, "")]))
     return ", ".join(sorted(set(addr for _, addr in fields if addr)))
 
+
 # ----------------------------------------------------------------------------
 # Function to clean text for Excel compatibility
 # ----------------------------------------------------------------------------
-def clean_text(text: str | any) -> str:
+def clean_text(text: str | Any) -> str:
     if not isinstance(text, str):
         return text
     
