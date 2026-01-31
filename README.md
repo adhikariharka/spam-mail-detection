@@ -1,3 +1,9 @@
+## Student name: Harka Adhikari
+## Student number: 2315355
+## Project title: Spam Email Detection
+## Link to project video recording: https://drive.google.com/file/d/1b5jaQjmJjTjB1_VguI2rTVpjHdqD54GD/view?usp=sharing
+
+
 # Spam Email Detection
 
 A modern web application for detecting spam emails using Machine Learning.
