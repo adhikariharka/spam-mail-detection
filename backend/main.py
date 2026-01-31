@@ -1,9 +1,9 @@
+import uvicorn
+from typing import Dict
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from src.pipeline.prediction_pipeline import PredictionPipeline
-import uvicorn
-import os
 
 app = FastAPI(title="Spam Email Detection API")
 
@@ -25,10 +25,6 @@ except Exception as e:
 
 class EmailRequest(BaseModel):
     content: str
-
-from typing import Dict
-
-# ... imports ...
 
 class DetailedResult(BaseModel):
     prediction: str
