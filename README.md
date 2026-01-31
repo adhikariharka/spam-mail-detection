@@ -73,8 +73,15 @@ Run the development server:
 npm run dev
 ```
 The app will be available at `http://localhost:3000`.
+The app will be available at `http://localhost:3000`.
 
-## Features
+## Troubleshooting
+
+### Common Issues
+1. **ModuleNotFound**: Ensure you activated the virtual environment (`source venv/bin/activate`).
+2. **CORS Error**: Check if the backend is running on port 8000.
+3. **Model Not Found**: Run `python backend/train_model.py` to generate the model files first.
+
 - **Spam Checker**: Real-time analysis of email content.
 - **Documentation**: Visual breakdown of the model performance and architecture at `/docs`.
 
